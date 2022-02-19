@@ -1,0 +1,39 @@
+#titlebar-container {
+  min-height: 84px;
+  margin: 0%;
+  width: 100vw;
+  background: #101010;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#titlebar-content {
+  padding-right: 86px;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#titlebar-content p {
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+#titlebar-content img {
+  height: 44px;
+  width: 44px;
+}
+
+#logo {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 36px;
+  text-decoration: none;
+  padding-left: 105px;
+}
